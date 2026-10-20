@@ -1,0 +1,111 @@
+:root {
+  --laut: #0d2b45;   
+  --ombak: #1f8a8a;  
+  --fajar: #f0a530;  
+  --layar: #f5f9fb;  
+}
+body {
+  background: var(--layar);
+  color: #17262f;
+}
+.bg-laut {
+  background: var(--laut);
+}
+.btn-fajar {
+  background: var(--fajar);
+  color: var(--laut);
+  font-weight: 600;
+  border: 0;
+}
+.btn-fajar:hover {
+  background: #dc9420;
+  color: var(--laut);
+}
+.nav-link.active {
+  color: var(--fajar) !important;
+}
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--laut);  
+  color: #fff;
+  padding: 5rem 0 4rem;
+  border-bottom: 6px solid var(--fajar);
+}
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(13, 43, 69, 0.65);
+  z-index: 1;
+}
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
+.hero h1 {
+  font-weight: 800;
+  font-size: clamp(2.6rem, 8vw, 5rem);
+  line-height: 1.02;
+}
+.chip {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 2rem;
+  padding: 0.35rem 1rem;
+  margin: 0.2rem;
+}
+.judul-bagian {
+  font-weight: 800;
+  border-left: 6px solid var(--fajar);
+  padding-left: 0.75rem;
+}
+.card {
+  border: 0;
+  border-top: 4px solid var(--ombak);
+}
+.foto {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  background: linear-gradient(135deg, var(--ombak), var(--laut));
+}
+.foto.hangat {
+  background: linear-gradient(135deg, var(--fajar), #d9822b);
+}
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+.foto-detail {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+.header-halaman {
+  background: var(--laut);
+  color: #fff;
+  padding: 3rem 0 2.5rem;
+  border-bottom: 6px solid var(--fajar);
+}
+.header-halaman h1 {
+  font-weight: 800;
+}
+.foto-profil {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--fajar);
+}
