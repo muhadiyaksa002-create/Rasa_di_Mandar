@@ -5,7 +5,7 @@ const dataKuliner = {
   "jepa": {
     nama: "Jepa",
     kutipan: "Sederhana bahannya, istimewa rasanya, melekat ceritanya.",
-    foto: "image/Jepa.jpeg",
+    foto: "image/jepa.jpeg",
     deskripsi: "Jepa merupakan makanan tradisional Mandar berbahan dasar singkong yang diolah menjadi panganan berbentuk pipih. Memiliki cita rasa khas dengan tekstur yang unik, jepa sering dinikmati bersama ikan dan berbagai lauk sebagai perpaduan sederhana yang menggugah selera.",
     bahan: ["Singkong", "Kelapa"],
     langkah: [
