@@ -1,11 +1,9 @@
-// 1. Data semua menu.
-//    Kunci ("jepa", "bau-peapi", ...) harus sama persis dengan ?menu= di daftar.html
 const dataKuliner = {
 
   "jepa": {
     nama: "Jepa",
     kutipan: "Sederhana bahannya, istimewa rasanya, melekat ceritanya.",
-    foto: "image/jepa.jpeg",
+    foto: "image/Jepa.jpeg",
     deskripsi: "Jepa merupakan makanan tradisional Mandar berbahan dasar singkong yang diolah menjadi panganan berbentuk pipih. Memiliki cita rasa khas dengan tekstur yang unik, jepa sering dinikmati bersama ikan dan berbagai lauk sebagai perpaduan sederhana yang menggugah selera.",
     bahan: ["Singkong", "Kelapa"],
     langkah: [
