@@ -106,12 +106,10 @@ const dataKuliner = {
   }
 };
 
-// 2. Baca nama menu dari alamat, contoh: detail.html?menu=jepa
 const parameter = new URLSearchParams(window.location.search);
 const kunci = parameter.get("menu");
 const menu = dataKuliner[kunci];
 
-// 3. Jika menu ditemukan, isi halaman. Jika tidak, tampilkan pesan.
 if (menu) {
   document.title = menu.nama + " | Rasa di Mandar";
   document.getElementById("judul").textContent = menu.nama;
@@ -123,7 +121,6 @@ if (menu) {
   foto.src = menu.foto;
   foto.alt = menu.nama + ", makanan khas Mandar";
 
-  // Buat satu <li> untuk setiap isi array
   document.getElementById("bahan").innerHTML =
     menu.bahan.map(item => `<li>${item}</li>`).join("");
   document.getElementById("langkah").innerHTML =
